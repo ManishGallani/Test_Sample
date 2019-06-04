@@ -15,7 +15,8 @@ public class CalFunc {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		driver.get("https://www.yatra.com");
+		system.out.println("abc");
+		driver.get("https://www.yatra.com");		
 		driver.findElement(By.id("BE_flight_origin_date")).click();
 		driver.findElement(By.id("05/06/2019")).click();
 	}
