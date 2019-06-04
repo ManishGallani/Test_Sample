@@ -16,6 +16,7 @@ public class CalFunc {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		system.out.println("abc");
+		system.out.println("abc");
 		driver.get("https://www.yatra.com");		
 		driver.findElement(By.id("BE_flight_origin_date")).click();
 		driver.findElement(By.id("05/06/2019")).click();
